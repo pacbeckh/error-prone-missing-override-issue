@@ -20,6 +20,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
                 <configuration>
                     <target>17</target>
                     <annotationProcessorPaths>
@@ -37,7 +38,7 @@
                     <compilerArgs>
                         <arg>-Xplugin:ErrorProne
                             -XepDisableWarningsInGeneratedCode
-                            -Xep:MissingOverride:ERROR
+                            -Xep:RemoveUnusedImports:ERROR
                         </arg>
                         <arg>-XDcompilePolicy=simple</arg>
                     </compilerArgs>
