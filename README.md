@@ -1,4 +1,5 @@
 # error-prone-missing-override-issue
+Created to support https://github.com/google/error-prone/issues/4065
 
 Generates `MissingOverride` errors for methods that have the `@Generated` annotation.
 
